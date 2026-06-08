@@ -11,5 +11,5 @@ Proyecto desarrollado para la evaluación final de Frontend.
 
 ## Integrantes
 
-Alvaro Vasquez
-Bruno Neira
+- Alvaro Vasquez
+- Bruno Neira

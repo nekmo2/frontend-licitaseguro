@@ -1,0 +1,62 @@
+/* ===== ESTILOS GENERALES ===== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* ===== HERO ===== */
+
+#inicio {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+#inicio h1 {
+    color: #0d6efd;
+}
+
+/* ===== TARJETAS ===== */
+
+.card {
+    border: none;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== FORMULARIOS ===== */
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+/* ===== RESULTADOS ===== */
+
+.licitacion-card {
+    margin-bottom: 1rem;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    margin-top: 50px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+
+    #inicio h1 {
+        font-size: 2rem;
+    }
+
+}
